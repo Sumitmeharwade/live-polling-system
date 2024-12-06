@@ -1,0 +1,32 @@
+.kicked-out-container {
+    text-align: center;
+    max-width: 737px;
+    margin: 0 auto;
+  }
+  
+  .badge {
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(117,101,217,1) 0%, rgba(77,10,205,1) 100%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50.4px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23.94px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
