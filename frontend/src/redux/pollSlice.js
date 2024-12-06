@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { io } from 'socket.io-client';
 
-const backendUrl = 'http://localhost:4000/api/polls';
+const backendUrl = 'https://live-polling-system-backend-p7ss.onrender.com/api/polls';
 
 export const fetchPolls = createAsyncThunk('polls/fetchPolls', async () => {
   const response = await axios.get(backendUrl);
